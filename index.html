@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="ribbon">Infinity</div>
+    <div class="logo">Infinity Dashboard</div>
+    <div class="header-right">
+        <button type="button" class="icon-button">
+            <span class="material-icons">notifications</span>
+        </button>
+      <button class="logout-btn">Logout</button>
+    </div>
+  </header>
+
+  <!-- Body -->
+  <div class="container">
+    <!-- Sidebar -->
+    <aside>
+      <nav>
+        <section>
+          <p>Operations</p>
+          <a href="#">Live Feed</a>
+          <a href="#">Smart Analytics</a>
+          <a href="#">Energy Reports</a>
+          <a href="#">System Alerts</a>
+        </section>
+        <section>
+          <p>Finance</p>
+          <a href="#">Financial Insights</a>
+          <a href="#">Billing & Invoicing</a>
+        </section>
+        <section>
+          <p>Admin</p>
+          <a href="#">User Management</a>
+          <a href="#">Access Accounts</a>
+        </section>
+        <section>
+          <p>Utilities</p>
+          <a href="#">Activity Logs</a>
+        </section>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Cards -->
+      <div class="cards">
+        <div class="card">
+          <h2>January Bill</h2>
+          <p>PKR 0.00</p>
+        </div>
+        <div class="card">
+          <h2>Current February Bill</h2>
+          <p>PKR 0.00</p>
+        </div>
+        <div class="card alt">
+          <h2>Predicted February Bill</h2>
+          <p>PKR 1.56M</p>
+        </div>
+      </div>
+
+      <!-- Filter -->
+      <div class="filter-bar">
+        <input type="text" placeholder="January 1, 2020 - February 1, 2020" />
+        <button>Projected Expense: PKR 87,720</button>
+      </div>
+
+      <!-- Chart Card -->
+      <div class="info-block">
+        <h3>Projected Expenses over Time</h3>
+        <canvas id="expenseChart"></canvas>
+      </div>
+
+      <!-- Energy Insight Card -->
+      <div class="info-block">
+        <h3>Energy Insight</h3>
+        <div class="energy-insight-text">
+          <p>Our analytics engine predicts a steady rise in energy consumption during second quarter due to increased operations. Implementing energy-efficient protocols is recommended to offset the spike.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
