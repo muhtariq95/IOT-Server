@@ -7,7 +7,7 @@ window.onload = function () {
       labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30'], // All 30 dates
       datasets: [{
         label: 'Devices', // Label set to 'Active'
-        data: [1, 3, 1, 5, 2, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], // Data up to 13, null thereafter
+        data: [1, 3, 1, 5, 2, 4, 0, 5, 3, 3, 3, 4, 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null], // Data up to 13, null thereafter
         borderColor: 'rgb(34, 197, 94)',
         backgroundColor: 'rgba(34, 197, 94, 0.2)',
         tension: 0.9,
