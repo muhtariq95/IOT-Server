@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Infinity User Management Dashboard">
+  <title>Infinity User Management</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="ribbon">Infinity</div>
+    <div class="logo">User Management</div>
+    <div class="header-right">
+      <button class="icon-button" aria-label="Notifications">
+        <span class="material-icons">notifications</span>
+      </button>
+      <button class="logout-btn">Logout</button>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside>
+      <nav>
+        <a href="#">Dashboard</a>
+        <div role="group" aria-label="User Management">
+          <a href="#">User Management</a>
+        </div>
+        <div role="group" aria-label="Operations">
+          <p>Operations</p>
+          <a href="#">Live Feed</a>
+          <a href="#">Smart Analytics</a>
+          <a href="#">Energy Reports</a>
+          <a href="#">System Alerts</a>
+        </div>
+        <div role="group" aria-label="Finance">
+          <p>Finance</p>
+          <a href="#">Financial Insights</a>
+          <a href="#">Billing & Invoicing</a>
+        </div>
+        <div role="group" aria-label="Utilities">
+          <p>Utilities</p>
+          <a href="#">Activity Logs</a>
+        </div>
+      </nav>
+    </aside>
+
+    <main>
+      <div class="cards">
+        <div class="card_1">
+          <h2>Add Devices</h2>
+        </div>
+        <div class="card_1">
+          <h2>Add Location</h2>
+        </div>
+        <div class="card_1">
+          <h2>Remove Devices</h2>
+        </div>
+        <div class="card_1">
+          <h2>Reset</h2>
+        </div>
+      </div>
+
+      <div class="info-block">
+        <div class="heading">
+          <h3>Device Hierarchy</h3>
+          <h3 class="date">April 13, 2025</h3> <!-- Consider dynamic date via JS -->
+        </div>
+        <div class="tree">
+          <ul>
+            <li>
+              <div class="box">User</div>
+              <ul>
+                <li>
+                  <div class="box">Device 1</div>
+                  <ul>
+                    <li><div class="box">Device 1.1</div></li>
+                    <li><div class="box">Device 1.2</div></li>
+                  </ul>
+                </li>
+                <li><div class="box">Device 2</div></li>
+                <li><div class="box">Device 3</div></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
